@@ -3,7 +3,7 @@ import torch
 import os
 from lmdeploy import pipeline, TurbomindEngineConfig
 
-base_path = './internlm2-1_8b-pet-knowledge-assistant-model'
+base_path = './internlm2-1_8b-pet-knowledge-assistant-model/'
 os.system('apt install git')
 os.system('apt install git-lfs')
 os.system(f'git clone https://code.openxlab.org.cn/raytang88/internlm2-1_8b-pet-knowledge-assistant-model.git {base_path}')

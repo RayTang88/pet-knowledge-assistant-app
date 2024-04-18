@@ -2,7 +2,6 @@ import gradio as gr
 import torch
 import os
 from lmdeploy import pipeline, TurbomindEngineConfig
-# from openxlab.model import download
 
 base_path = './internlm2-1_8b-pet-knowledge-assistant-model'
 os.system('apt install git')
